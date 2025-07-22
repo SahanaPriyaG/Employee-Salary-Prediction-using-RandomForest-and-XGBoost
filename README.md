@@ -4,7 +4,7 @@ This project uses machine learning to predict employee salaries based on feature
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 
 - [Problem Statement](#problem-statement)
 - [Tech Stack](#tech-stack)
@@ -14,13 +14,13 @@ This project uses machine learning to predict employee salaries based on feature
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Estimating employee salaries accurately is essential for fair hiring practices and workforce planning. Traditional methods often lack consistency and transparency. This project addresses the issue by training machine learning models that predict salaries based on real-world input features. The interactive Gradio interface makes it easy to use by recruiters, HR teams, or job seekers.
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Language**: Python 3.10  
 - **ML Libraries**: `pandas`, `numpy`, `scikit-learn`, `xgboost`, `joblib`  
@@ -30,27 +30,27 @@ Estimating employee salaries accurately is essential for fair hiring practices a
 
 ---
 
-## 📈 Models Used
+##  Models Used
 
 | Model            | R² Score | MAE     |
 |------------------|----------|---------|
 | Random Forest    | ~0.83    | ~6000   |
 | XGBoost Regressor| ~0.86    | ~5500   |
 
-> 🔹 **Random Forest ** was chosen for final deployment due to better performance.
+>  **Random Forest ** was chosen for final deployment due to better performance.
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
-🟢 **Live App**:  
+**Live App**:  
 [👉 Launch on Hugging Face](https://sahanapriyag-employee-salary-prediction.hf.space/?__theme=system&deep_link=Rg-lWUzrcgM)
 
 📦 **Deployed using**: Hugging Face Spaces (Gradio SDK)
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 - Correlation Heatmap
 - Feature Importance (Random Forest & XGBoost)
